@@ -1,0 +1,201 @@
+/* 
+IMPORTS
+*/
+/* FONT MONTSERRAT */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap");
+/*
+Generales
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #eaeded;
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.barkojba {
+  font-weight: 700;
+  color: #3498db;
+}
+
+/* 
+HEADER
+*/
+header {
+  padding: 10px 15px;
+  background: -webkit-gradient(linear, left top, right top, from(#2980b9), to(#3498db));
+  background: linear-gradient(90deg, #2980b9, #3498db);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.6);
+}
+
+header nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px auto;
+      grid-template-columns: 200px auto;
+}
+
+header nav a {
+  color: white;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .logo img {
+  width: 50px;
+  margin-right: 15px;
+}
+
+/* 
+SECCION TORNEOS
+*/
+/* 
+SECCION TORNEO APERTURA 2020
+*/
+section.torneo-apertura-2020 h1.torneo {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 2.7;
+}
+
+section.torneo-apertura-2020 h2 {
+  text-align: center;
+  line-height: 3;
+}
+
+section.torneo-apertura-2020 table.resultados {
+  width: 45%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+section.torneo-apertura-2020 table.resultados thead tr {
+  background: -webkit-gradient(linear, left top, right top, from(#3498db), to(#2980b9));
+  background: linear-gradient(90deg, #3498db, #2980b9);
+  color: white;
+}
+
+section.torneo-apertura-2020 table.resultados thead th {
+  padding: 7px 5px;
+  text-align: left;
+}
+
+section.torneo-apertura-2020 table.resultados thead th:nth-child(1) {
+  width: 2%;
+}
+
+section.torneo-apertura-2020 table.resultados thead th:nth-child(2) {
+  width: 10%;
+}
+
+section.torneo-apertura-2020 table.resultados thead th:nth-child(3) {
+  width: 41%;
+}
+
+section.torneo-apertura-2020 table.resultados thead th:nth-child(4) {
+  text-align: center;
+  width: 6%;
+}
+
+section.torneo-apertura-2020 table.resultados thead th:nth-child(5) {
+  text-align: right;
+  width: 41%;
+}
+
+section.torneo-apertura-2020 table.resultados tbody tr {
+  text-align: left;
+}
+
+section.torneo-apertura-2020 table.resultados tbody tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+
+section.torneo-apertura-2020 table.resultados tbody td {
+  padding: 10px 5px;
+}
+
+section.torneo-apertura-2020 table.resultados tbody td:nth-child(4),
+section.torneo-apertura-2020 table.resultados tbody td:nth-child(5) {
+  text-align: center;
+  color: #3498db;
+  font-weight: 700;
+}
+
+section.torneo-apertura-2020 table.resultados tbody td:nth-child(6) {
+  text-align: right;
+}
+
+section.torneo-apertura-2020 table.tabla {
+  width: 45%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+section.torneo-apertura-2020 table.tabla thead tr {
+  background: -webkit-gradient(linear, left top, right top, from(#3498db), to(#2980b9));
+  background: linear-gradient(90deg, #3498db, #2980b9);
+  color: white;
+}
+
+section.torneo-apertura-2020 table.tabla th {
+  text-align: center;
+  padding: 7px 5px;
+  width: 6.66%;
+}
+
+section.torneo-apertura-2020 table.tabla th:nth-child(1),
+section.torneo-apertura-2020 table.tabla th:nth-child(2) {
+  text-align: left;
+}
+
+section.torneo-apertura-2020 table.tabla th:nth-child(2) {
+  width: 40%;
+}
+
+section.torneo-apertura-2020 tbody tr {
+  text-align: center;
+}
+
+section.torneo-apertura-2020 tbody tr:nth-child(odd) {
+  background: #f8f8f8;
+}
+
+section.torneo-apertura-2020 tbody td {
+  padding: 10px 5px;
+}
+
+section.torneo-apertura-2020 tbody td:nth-child(2) {
+  text-align: left;
+}
+/*# sourceMappingURL=style.css.map */
